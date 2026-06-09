@@ -1,8 +1,8 @@
  * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
  }
 
 body{
@@ -17,26 +17,24 @@ body{
    text-align: center;          
    }
    
-   /* #imagem0{
-   display: grid;
-   margin-top: -1020px;
-   }
-
-   #imagem00{
-   display: grid;
-   justify-self: right;
-   margin-top:  -330px;
-   }
- */
-
-   #imagens{
+   /* #imagens{
    justify-self: center;
-   display: grid;
+   display: flex;
+   } */
+   
+   img{
+   padding: 5px;
    
    }
 
-   img{
-   padding: 5px;
+   .imagens:hover{
+    scale: 1.005;
+   }
+
+   .imagens{
+   justify-self: center;
+   display: flex;
+   flex-wrap: wrap;
    }
 
 
