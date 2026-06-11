@@ -16,12 +16,13 @@ body{
    padding: 30px;
    text-align: center;          
    }
-   
-   /* #imagens{
-   justify-self: center;
-   display: flex;
-   } */
-   
+
+   h2{
+   text-align: center;
+         
+   }
+
+
    img{
    padding: 5px;
    
@@ -36,6 +37,16 @@ body{
    display: flex;
    flex-wrap: wrap;
    }
+
+   .icons{
+   justify-self: center;
+   flex-wrap: wrap;
+   
+   }
+
+ 
+
+  
 
 
      
