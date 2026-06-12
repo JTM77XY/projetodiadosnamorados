@@ -29,13 +29,14 @@ body{
    }
 
    .imagens:hover{
-    scale: 1.005;
+    scale: 2.005;
    }
 
    .imagens{
    justify-self: center;
    display: flex;
    flex-wrap: wrap;
+   border-radius: 10px;
    }
 
    .icons{
@@ -43,8 +44,20 @@ body{
    flex-wrap: wrap;
    
    }
+   #livro1{
+   justify-self: right;
+   }
+   a{
+   
+   color: black;
 
- 
+   }
+
+  button{
+   background-color: rgb(255, 20, 216);
+   border-radius: 5px;
+    width: 25%;
+  }
 
   
 
